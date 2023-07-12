@@ -22,7 +22,7 @@ ls | go-grepper match pipe '^go'
 
 The result can be seen in the picure below
 
-![alt text](https://github.com/TheisFerre/go-grepper/blob/main/go-grepper-pipe.png)
+![alt text](https://github.com/TheisFerre/go-grepper/blob/main/img/go-grepper-pipe.png)
 
 ### Using go-grepper to read a file
 
@@ -40,4 +40,4 @@ go-grepper match file lorem-ipsum.txt '[E|e]rat dolor'
 
 The result can be seen in the picure below
 
-![alt text](https://github.com/TheisFerre/go-grepper/blob/main/go-grepper-file.png)
+![alt text](https://github.com/TheisFerre/go-grepper/blob/main/img/go-grepper-file.png)
