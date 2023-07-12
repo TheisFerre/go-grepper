@@ -6,7 +6,7 @@ The tool matches the behaviour of the linux command line tool `grep` and relies 
 
 ## Usage
 
-go-grepper can be used either from a linux pipe or from a file directly. It offers regex based pattern matching.
+`go-grepper` can be used either from a linux pipe or from a file directly. It offers regex based pattern matching.
 
 ### Using go-grepper from a linux pipe
 
