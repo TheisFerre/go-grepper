@@ -4,6 +4,20 @@
 
 The tool matches the behaviour of the linux command line tool `grep` and relies on the Go primitives for concurrency through goroutines and channels.
 
+## Install
+
+Simply install directly from github
+
+```bash
+go install github.com/TheisFerre/go-grepper
+```
+
+To verify installation run
+
+```bash
+go-grepper --help
+```
+
 ## Usage
 
 `go-grepper` can be used either from a linux pipe or from a file directly. It offers regex based pattern matching.
