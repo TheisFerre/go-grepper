@@ -11,6 +11,8 @@ import (
 	"github.com/fatih/color"
 )
 
+var red = color.New(color.FgRed).Add(color.Bold).SprintFunc()
+
 func IsInputFromPipe() bool {
 	fileInfo, _ := os.Stdin.Stat()
 	return fileInfo.Mode()&os.ModeCharDevice == 0
@@ -37,7 +39,6 @@ func ReadFile(path string, pattern string) error {
 
 func matchText(jobs <-chan string, wg *sync.WaitGroup, pattern string) {
 	defer wg.Done()
-	red := color.New(color.FgRed).Add(color.Bold).SprintFunc()
 
 	var regexer = regexp.MustCompile(pattern)
 
