@@ -55,7 +55,7 @@ func matchText(jobs <-chan string, wg *sync.WaitGroup, pattern string) {
 
 func processLineConc(scanner *bufio.Scanner, pattern string) error {
 
-	// list of channel. Each channel should process a single line
+	// Channel to hold lines
 	job := make(chan string)
 
 	go func() {
