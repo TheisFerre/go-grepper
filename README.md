@@ -1,6 +1,6 @@
 # go-grepper
 
-A small for-fun CLI tool written in GO to find lines in text using regex. The tool matches the behaviour of the linux command line tool `grep`.
+A small for-fun CLI tool written in GO to find lines in text using regex. The tool matches the behaviour of the linux command line tool `grep` and relies on the GO primitives for concurrency through goroutines and channels.
 
 ## Usage
 
