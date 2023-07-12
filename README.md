@@ -32,7 +32,7 @@ To use `go-grepper` to read from a file, the following command is available:
 go-grepper match file <file name> <regex pattern>
 ```
 
-As an example, we can use the file `lorem-imsum.txt` in this repository to find all the cases that matches the following regex pattern `[E|e]rat dolor`. Which means that the first letter E can be upper or lowercase and then it should match the rest exact.
+As an example, we can use the file `lorem-ipsum.txt` in this repository to find all the cases that matches the following regex pattern `[E|e]rat dolor`. Which means that the first letter E can be upper or lowercase and then it should match the rest exact.
 
 ```bash
 go-grepper match file lorem-ipsum.txt '[E|e]rat dolor'
