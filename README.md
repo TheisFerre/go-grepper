@@ -14,7 +14,7 @@ To use `go-grepper` to read from a linux pipe, the following command is availabl
 go-grepper match pipe <regex pattern>
 ```
 
-As an example, of using `go-grepper` inside this git directory to find all files that start with `go`:
+To illustrate how it works, we can use `go-grepper` inside this git directory to find all files that start with `go`:
 
 ```bash
 ls | go-grepper match pipe '^go'
